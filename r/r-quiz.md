@@ -666,7 +666,7 @@ Results: [1] "GHW BUsh" "Clinton" "Obama"
 
 - [ ] Each value in the first row is a character value, but the values in the third column include both character and numeric values.
 - [ ] By specifying the final row, 3, and no column specified, StDf[3, ] calls for the complete structure.
-- [x] Columns in a data frame are vectors generally containing a single type of data. Rows in a data frame are lists, but they belong to a structure that has mutiple rows: the data frame.
+- [x] Columns in a data frame are vectors generally containing a single type of data. Rows in a data frame are lists, but they belong to a structure that has multiple rows: the data frame.
 - [ ] Each value in the first column is a character value, but the values in the third row include both character and numeric values.
 
 - [x] Columns in a data frame are vectors generally containing a single type of data. Rows in a data frame are lists, but they belong to a structure that has multiple rows: the data frame.
