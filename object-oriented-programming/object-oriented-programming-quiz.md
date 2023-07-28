@@ -128,10 +128,12 @@
 
 #### Q19. Which statement is true?
 
-- [x] A default parameter's constructor is not equivalent to the default constructor
+- [ ] A default parameter's constructor is not equivalent to the default constructor
 - [ ] A default constructor is inherited from a parent class
-- [ ] A default constructor can be called explicitly
+- [x] A default constructor can be called explicitly
 - [ ] A default constructor cannot be defined by the coder
+
+[reference](https://en.wikipedia.org/wiki/Constructor_(object-oriented_programming)#:~:text=The%20constructors%20can%20be%20called,also%20called%20the%20shorthand%20method.&text=Example%20e%20%3D%20Example(0%2C,50)%3B%20%2F%2F%20Implicit%20call.) It is even mentioned in Wikipedia: "The constructors can be called explicitly or implicitly. The method of calling the constructor implicitly is also called the shorthand method."
 
 #### Q20. Which of the following is NOT an advantage of using getters and setters?
 
@@ -146,6 +148,9 @@
 - [ ] Association is the process where model elements cooperate to provide higher-level behavior.
 - [ ] Association is whole/part relationship where one object is composed of one or more other objects, each of which is considered a part of the whole.
 - [ ] Association is where all objects have their own life cycle, but there is ownerhip, and child objects can not belong to another parent object.
+
+[Reference](https://www.infoworld.com/article/3029325/exploring-association-aggregation-and-composition-in-oop.html#:~:text=Association%20in%20object%20oriented%20programming&text=An%20association%20is%20a%20“using,and%20there%20is%20no%20owner.)  
+Association is a semantically weak relationship (a semantic dependency) between otherwise unrelated objects. An association is a “using” relationship between two or more objects in which the objects have their own lifetime and there is no owner.
 
 #### Q22. How are user stories different from use cases?
 

@@ -272,8 +272,8 @@ area
 - [ ] If the return keyword is absent, the function will return `True`.
 - [ ] The function will enter an infinite loop because it won't know when to stop executing its code.
 
-When the return statement is `None` or has no value or there is no return statement the function returns `None`.
-[reference](https://www.askpython.com/python/python-return-statement#)
+[reference](https://www.askpython.com/python/python-return-statement#). When the return statement is `None` or has no value or there is no return statement the function returns `None`.
+
 
 #### Q23. What is the purpose of the `pass` statement in Python?
 
@@ -1263,6 +1263,8 @@ np.ones([1,2,3,4,5])
 - [ ] A list of all the multiples of 3 less than 100.
 - [ ] A set of all the multiples of 3 less than 100 excluding 0.
 
+[reference](https://www.geeksforgeeks.org/comprehensions-in-python/) It is a `Set Comprehension` because in '{}', curly brackets, so it will return a 'Set`!
+
 #### Q87. What does the // operator in Python 3 allow you to do?
 
 - [x] Perform integer division.
@@ -1992,6 +1994,9 @@ def can_matrices_be_multiplied (matrix1, matrix2):
 - [ ] columnsMat1; columnsMat2;
 - [ ] columnsMat2; rowsMat1;
 
+[reference](https://www.khanacademy.org/math/precalculus/x9e81a4f98389efdf:matrices/x9e81a4f98389efdf:multiplying-matrices-by-matrices/a/multiplying-matrices#).
+A matrix can be multiplied by any other matrix that has the same number of rows as the first has columns. I.E. A matrix with 2 columns can be multiplied by any matrix with 2 rows
+
 #### Q144. What is the output of this comprehension?
 
 `[(x, x+1) for x in range(1,5)] `
@@ -2165,10 +2170,10 @@ else:
 
 ```
 
-- [x] C
+- [ ] C
 - [ ] A B
 - [ ] B
-- [ ] A
+- [x] A
 
 #### Q150. What is the maximum length of a Python identifier?
 
@@ -2268,6 +2273,9 @@ print("programming".center())
 - [ ] `programming`
 - [x] Error says `TypeError: center expected at least 1 argument, got 0`.
 - [ ] None of the above.
+
+[reference](https://www.w3schools.com/python/ref_string_center.asp). The center() method will center align the string, using a specified character (space is default) as the fill character.  
+Syntax: `string.center(length, character)` where `length` is required!
 
 #### Q159. Who created the Python programming language?
 
@@ -2518,3 +2526,9 @@ The first loop runs for `m` times and the inner loop will run for `n` times. Whi
 - [ ] A dictionary whose keys are the numbers from 2 to 99 (inclusive), and their respective values are a list from 1 to the key value itself (inclusive).
 - [ ] A dictionary whose keys are the numbers from 2 to 99 (inclusive), and their respective values are the even numbers from 1 to the key value itself (inclusive).
 - [ ] A dictionary whose keys are the numbers from 2 to 99 (inclusive), and their respective values are the odd numbers from 1 to the key value itself (inclusive).
+
+#### Q176. What is a common use of Python's sys library?
+- [ ] to take a snapshot of all the packages and libraries in your virtual environment
+- [ ] to connect various systems, such as connecting a web front end, an API service, a database, and a mobile app
+- [x] to capture command-line arguments given at a file's runtime
+- [ ] to scan the health of your Python ecosystem while inside a virtual environment
